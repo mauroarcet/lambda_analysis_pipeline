@@ -1,0 +1,15 @@
+[requires]
+python_version = "3.7.0"
+
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+boto3 = "*"
+psycopg2-binary = "*"
+logger = "*"
+
+[pipenv]
+allow_prereleases = true
