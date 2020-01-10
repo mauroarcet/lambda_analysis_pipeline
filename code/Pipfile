@@ -10,6 +10,7 @@ verify_ssl = true
 boto3 = "*"
 psycopg2-binary = "*"
 logger = "*"
+sqlalchemy = "*"
 
 [pipenv]
 allow_prereleases = true
