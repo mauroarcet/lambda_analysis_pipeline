@@ -5,7 +5,7 @@ import sqlalchemy as db
 from config import config
 
 
-def lambda_handler():
+def lambda_handler(event, context):
     update_approval_states()
 
 
